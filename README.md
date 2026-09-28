@@ -30,23 +30,33 @@ git clone https://github.com/fcruzp/ciudad-openfn-web.git
 cd ciudad-openfn-web
 ```
 
-Luego abre `index.html` con doble clic en cualquier navegador moderno (Chrome, Edge, Firefox, Safari). No hace falta internet: el motor 3D, las fuentes y los logos van embebidos.
+### Opción 1: doble clic (recomendada)
 
-Si prefieres un servidor local (útil para probar en el celular dentro de la misma red):
+**Haz doble clic en `index.html`** y se abrirá en tu navegador. Eso es todo.
+
+- **Funciona 100 % offline.** No necesita internet, servidor ni instalar nada.
+- El motor 3D (Three.js), las fuentes y los logos están embebidos en el mismo archivo, así que la página no hace ninguna petición de red.
+- Ideal para presentaciones: puedes copiar solo el `index.html` a otra computadora o a una memoria USB.
+
+### Opción 2: con un servidor local (opcional)
+
+No hace falta para usar la app, pero sirve si quieres abrirla desde otro dispositivo de la misma red (por ejemplo, para probarla en el celular) o simular cómo se verá publicada.
+
+Con Python:
 
 ```bash
 python -m http.server 8000
 ```
 
-o
+O con Node.js:
 
 ```bash
 npx serve .
 ```
 
-Y abre `http://localhost:8000`.
+Luego abre `http://localhost:8000` (con `npx serve`, usa el puerto que indique la terminal, normalmente `3000`). Desde el celular, usa la IP de tu computadora en lugar de `localhost`.
 
-**Requisitos:** un navegador con WebGL. Nada más.
+**Requisitos:** un navegador moderno con WebGL (Chrome, Edge, Firefox o Safari). Nada más.
 
 ---
 
