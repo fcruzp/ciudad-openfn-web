@@ -2,6 +2,8 @@
 
 Visualización 3D interactiva que explica, con una metáfora urbana, el papel de **OpenFn** dentro de la infraestructura pública digital (DPI) de un país.
 
+![Ciudad OpenFn en modo claro: panel con la historia a la izquierda y la ciudad 3D con edificios, carreteras X-Road, vehículos de OpenFn y ciudadanos a la derecha](docs/captura.png)
+
 - **Edificios** = sistemas públicos (identidad, registro civil, pagos, salud, educación…)
 - **Carreteras** = X-Road, la capa de intercambio seguro de datos
 - **Vehículos autónomos** = flujos de OpenFn que mueven datos, dinero y servicios
